@@ -40,8 +40,8 @@ body {
 }
 
 /* === EFFECTS FOR ICONS === */
-.wrapper .icon:before,
-.wrapper .icon:after {
+.wrapper .icon .link:before,
+.wrapper .icon .link:after {
     content: '';
     position: absolute;
     box-sizing: border-box;
@@ -52,7 +52,7 @@ body {
     transition: .4s linear;
 }
 
-.wrapper .icon:hover::before {
+.wrapper .icon .link:hover::before {
     border-radius: 50%;
     border-left: 4px solid;
     border-right: 4px solid;
@@ -60,7 +60,7 @@ body {
     color: #fff;
 }
 
-.wrapper .icon:hover::after {
+.wrapper .icon .link:hover::after {
     border-radius: 50%;
     border-top: 4px solid;
     border-bottom: 4px solid;
